@@ -29,3 +29,8 @@ Domain 1: General Security Concepts
 **CIA Triad:** Integrity
 
 **Note:** This was a controlled educational simulation using fictional data. A hash mismatch demonstrates that a file changed, but does not identify who changed it.
+## Investigation Evidence
+
+The screenshot below demonstrates successful SHA-256 verification of the original transaction file, followed by a failed verification after the transaction amount was modified.
+
+![SHA-256 file integrity verification results](integrity-check.png)
